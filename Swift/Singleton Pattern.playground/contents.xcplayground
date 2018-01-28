@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='The Chocolate Factory'/>
+        <page name='Turning it into a Singleton'/>
+        <page name='Dealing with multithreading'/>
+        <page name='Final Chocolate Factory implementation'/>
+    </pages>
+</playground>

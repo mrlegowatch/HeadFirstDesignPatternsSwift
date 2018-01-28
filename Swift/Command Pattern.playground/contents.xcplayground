@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='raw'>
+    <pages>
+        <page name='Our first command object'/>
+        <page name='The Garage door open command'/>
+        <page name='Implementing the remote control'/>
+        <page name='Implementing undo'/>
+        <page name='Using state to implement undo'/>
+        <page name='Party mode with macros'/>
+        <page name='Simplifying the remote with lambdas'/>
+        <page name='Final undo implementation'/>
+    </pages>
+</playground>

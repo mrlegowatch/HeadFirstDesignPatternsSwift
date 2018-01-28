@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='It started with a simple SimUDuck app'/>
+        <page name='How about an interface?'/>
+        <page name='Implementing the Duck behaviors'/>
+        <page name='Setting behavior dynamically'/>
+        <page name='Design Puzzle- Action Adventure Game'/>
+        <page name='The final SimUDuck app'/>
+    </pages>
+</playground>

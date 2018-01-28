@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Welcome to Starbuzz Coffee'/>
+        <page name='Condiments as Boolean values'/>
+        <page name='Decorating our Beverages'/>
+        <page name='Final version with Beverage Sizes'/>
+        <page name='Real World Decorators'/>
+    </pages>
+</playground>

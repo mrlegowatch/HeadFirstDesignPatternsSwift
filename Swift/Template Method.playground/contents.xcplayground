@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Whipping up some coffee and tea classes'/>
+        <page name='Sir, may I abstract your Coffee, Tea?'/>
+        <page name='Abstracting prepareRecipe()'/>
+        <page name='Hooked on Template Method'/>
+        <page name='Sorting with Template Method'/>
+        <page name='Final Barista implementation'/>
+    </pages>
+</playground>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='The Duck and the Turkey Adapters'/>
+        <page name='The Home Theater Facade'/>
+        <page name='Final Adapters implementation'/>
+        <page name='Final Facade implementation'/>
+    </pages>
+</playground>

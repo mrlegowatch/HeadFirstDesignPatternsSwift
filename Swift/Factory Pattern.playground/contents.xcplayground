@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos'>
+    <pages>
+        <page name='One type of pizza'/>
+        <page name='More than one type of pizza'/>
+        <page name='Adding more pizza types'/>
+        <page name='Encapsulating pizza creation'/>
+        <page name='Franchising the pizza store'/>
+        <page name='We are just missing Pizza'/>
+        <page name='Reworking pizzas with ingredient factories'/>
+        <page name='Final pizza abstract factory'/>
+        <page name='Final pizza ingredient factories'/>
+    </pages>
+</playground>

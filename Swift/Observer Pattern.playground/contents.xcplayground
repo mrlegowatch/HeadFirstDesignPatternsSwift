@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Misguided SWAG at the Weather Station'/>
+        <page name='Designing the Weather Station'/>
+        <page name='Using Swift&apos;s built-in Observer Pattern'/>
+        <page name='Other places you&apos;ll find the Observer Pattern'/>
+    </pages>
+</playground>
