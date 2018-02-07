@@ -2,27 +2,30 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Swift/Strategy Pattern.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/1. Strategy Pattern.playground">
    </FileRef>
    <FileRef
-      location = "group:Swift/Observer Pattern.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/2. Observer Pattern.playground">
    </FileRef>
    <FileRef
-      location = "group:Swift/Decorator Pattern.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/3. Decorator Pattern.playground">
    </FileRef>
    <FileRef
-      location = "group:Swift/Factory Pattern.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/4. Factory Pattern.playground">
    </FileRef>
    <FileRef
-      location = "group:Swift/Singleton Pattern.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/5. Singleton Pattern.playground">
    </FileRef>
    <FileRef
-      location = "group:Swift/Command Pattern.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/6. Command Pattern.playground">
    </FileRef>
    <FileRef
-      location = "group:Swift/Adapter and Facade.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/7. Adapter and Facade.playground">
    </FileRef>
    <FileRef
-      location = "group:Swift/Template Method.playground">
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/8. Template Method.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/9. Iterator and Composite.playground">
    </FileRef>
 </Workspace>

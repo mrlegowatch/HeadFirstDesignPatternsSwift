@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Objectville Diner and Pancake House Merge'/>
+        <page name='Adding an Iterator to DinerMenu'/>
+        <page name='Cleaning things up with Swift.Iterator'/>
+        <page name='Taking a look at the Cafe menu'/>
+        <page name='Is the Waitress ready for prime time?'/>
+        <page name='Implementing Composite Menus'/>
+        <page name='Flashback to Iterator'/>
+        <page name='Final Iterator Pattern implementation'/>
+        <page name='Final Composite Pattern implementation'/>
+    </pages>
+</playground>
