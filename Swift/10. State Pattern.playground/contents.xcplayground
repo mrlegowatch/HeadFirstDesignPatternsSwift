@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos'>
+    <pages>
+        <page name='State Machines 101'/>
+        <page name='The new design'/>
+        <page name='Finishing the Gumball 1 in 10 game'/>
+        <page name='Final State Pattern implementation'/>
+    </pages>
+</playground>

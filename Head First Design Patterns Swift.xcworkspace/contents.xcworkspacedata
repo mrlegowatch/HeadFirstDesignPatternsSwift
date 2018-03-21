@@ -28,4 +28,7 @@
    <FileRef
       location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/9. Iterator and Composite.playground">
    </FileRef>
+   <FileRef
+      location = "group:Swift/10. State Pattern.playground">
+   </FileRef>
 </Workspace>
