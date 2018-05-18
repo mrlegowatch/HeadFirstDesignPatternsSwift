@@ -31,4 +31,13 @@
    <FileRef
       location = "group:Swift/10. State Pattern.playground">
    </FileRef>
+   <FileRef
+      location = "group:Swift/11. Proxy Pattern.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Swift/12. Compound Patterns.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/DJ/12. DJ.xcodeproj">
+   </FileRef>
 </Workspace>

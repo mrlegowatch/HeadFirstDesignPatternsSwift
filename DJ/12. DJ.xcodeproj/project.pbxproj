@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6017D8020AC6A10002C2A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D7F20AC6A10002C2A39 /* AppDelegate.swift */; };
+		B6017D8220AC6A10002C2A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D8120AC6A10002C2A39 /* ViewController.swift */; };
+		B6017D8420AC6A13002C2A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6017D8320AC6A13002C2A39 /* Assets.xcassets */; };
+		B6017D8720AC6A13002C2A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6017D8520AC6A13002C2A39 /* Main.storyboard */; };
+		B6017D9020AC6A61002C2A39 /* BeatModelInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D8F20AC6A61002C2A39 /* BeatModelInterface.swift */; };
+		B6017D9220AC6A9D002C2A39 /* BeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D9120AC6A9D002C2A39 /* BeatModel.swift */; };
+		B6017D9420AC6C92002C2A39 /* DJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D9320AC6C92002C2A39 /* DJView.swift */; };
+		B6017D9620AC6D37002C2A39 /* ControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D9520AC6D37002C2A39 /* ControllerInterface.swift */; };
+		B6F45C1720AF19010009061A /* BeatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F45C1620AF19010009061A /* BeatController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6017D7C20AC6A10002C2A39 /* DJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6017D7F20AC6A10002C2A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6017D8120AC6A10002C2A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6017D8320AC6A13002C2A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6017D8620AC6A13002C2A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6017D8820AC6A13002C2A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6017D8920AC6A13002C2A39 /* DJ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DJ.entitlements; sourceTree = "<group>"; };
+		B6017D8F20AC6A61002C2A39 /* BeatModelInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModelInterface.swift; sourceTree = "<group>"; };
+		B6017D9120AC6A9D002C2A39 /* BeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModel.swift; sourceTree = "<group>"; };
+		B6017D9320AC6C92002C2A39 /* DJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJView.swift; sourceTree = "<group>"; };
+		B6017D9520AC6D37002C2A39 /* ControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerInterface.swift; sourceTree = "<group>"; };
+		B6F45C1620AF19010009061A /* BeatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6017D7920AC6A10002C2A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6017D7320AC6A10002C2A39 = {
+			isa = PBXGroup;
+			children = (
+				B6017D7E20AC6A10002C2A39 /* DJ */,
+				B6017D7D20AC6A10002C2A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6017D7D20AC6A10002C2A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6017D7C20AC6A10002C2A39 /* DJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6017D7E20AC6A10002C2A39 /* DJ */ = {
+			isa = PBXGroup;
+			children = (
+				B6017D7F20AC6A10002C2A39 /* AppDelegate.swift */,
+				B6017D8120AC6A10002C2A39 /* ViewController.swift */,
+				B6017D8F20AC6A61002C2A39 /* BeatModelInterface.swift */,
+				B6017D9120AC6A9D002C2A39 /* BeatModel.swift */,
+				B6017D9520AC6D37002C2A39 /* ControllerInterface.swift */,
+				B6F45C1620AF19010009061A /* BeatController.swift */,
+				B6017D9320AC6C92002C2A39 /* DJView.swift */,
+				B6017D8320AC6A13002C2A39 /* Assets.xcassets */,
+				B6017D8520AC6A13002C2A39 /* Main.storyboard */,
+				B6017D8820AC6A13002C2A39 /* Info.plist */,
+				B6017D8920AC6A13002C2A39 /* DJ.entitlements */,
+			);
+			path = DJ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6017D7B20AC6A10002C2A39 /* DJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6017D8C20AC6A13002C2A39 /* Build configuration list for PBXNativeTarget "DJ" */;
+			buildPhases = (
+				B6017D7820AC6A10002C2A39 /* Sources */,
+				B6017D7920AC6A10002C2A39 /* Frameworks */,
+				B6017D7A20AC6A10002C2A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJ;
+			productName = DJ;
+			productReference = B6017D7C20AC6A10002C2A39 /* DJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6017D7420AC6A10002C2A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Brian Arnold";
+				TargetAttributes = {
+					B6017D7B20AC6A10002C2A39 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B6017D7720AC6A10002C2A39 /* Build configuration list for PBXProject "12. DJ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6017D7320AC6A10002C2A39;
+			productRefGroup = B6017D7D20AC6A10002C2A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6017D7B20AC6A10002C2A39 /* DJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6017D7A20AC6A10002C2A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6017D8420AC6A13002C2A39 /* Assets.xcassets in Resources */,
+				B6017D8720AC6A13002C2A39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6017D7820AC6A10002C2A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6017D9420AC6C92002C2A39 /* DJView.swift in Sources */,
+				B6017D8220AC6A10002C2A39 /* ViewController.swift in Sources */,
+				B6017D8020AC6A10002C2A39 /* AppDelegate.swift in Sources */,
+				B6F45C1720AF19010009061A /* BeatController.swift in Sources */,
+				B6017D9620AC6D37002C2A39 /* ControllerInterface.swift in Sources */,
+				B6017D9020AC6A61002C2A39 /* BeatModelInterface.swift in Sources */,
+				B6017D9220AC6A9D002C2A39 /* BeatModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6017D8520AC6A13002C2A39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6017D8620AC6A13002C2A39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6017D8A20AC6A13002C2A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6017D8B20AC6A13002C2A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6017D8D20AC6A13002C2A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DJ/DJ.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.DJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B6017D8E20AC6A13002C2A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DJ/DJ.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.DJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6017D7720AC6A10002C2A39 /* Build configuration list for PBXProject "12. DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6017D8A20AC6A13002C2A39 /* Debug */,
+				B6017D8B20AC6A13002C2A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6017D8C20AC6A13002C2A39 /* Build configuration list for PBXNativeTarget "DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6017D8D20AC6A13002C2A39 /* Debug */,
+				B6017D8E20AC6A13002C2A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6017D7420AC6A10002C2A39 /* Project object */;
+}
