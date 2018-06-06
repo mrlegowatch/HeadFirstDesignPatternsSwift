@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B6017D7720AC6A10002C2A39 /* Build configuration list for PBXProject "12. DJ" */;
+			buildConfigurationList = B6017D7720AC6A10002C2A39 /* Build configuration list for PBXProject "12. DJ Compound Pattern" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6017D7720AC6A10002C2A39 /* Build configuration list for PBXProject "12. DJ" */ = {
+		B6017D7720AC6A10002C2A39 /* Build configuration list for PBXProject "12. DJ Compound Pattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6017D8A20AC6A13002C2A39 /* Debug */,

@@ -19,7 +19,7 @@ public protocol BeatModelInterface {
     // IN SWIFT: No observer pattern methods are required here, if we use Foundation Notifications.
 }
 
-extension Notification.Name {
+struct BeatModelNotifications {
     
     // IN SWIFT: specify Notifications that BeatModelInterface will send when bpm changes or a beat happens.
 

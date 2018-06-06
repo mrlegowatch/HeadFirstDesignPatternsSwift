@@ -33,12 +33,12 @@ public class BeatModel: BeatModelInterface {
     public var bpm: Int = 90 {
         didSet {
             // sequencer.setTempoInBPM(bpm)
-            NotificationCenter.default.post(name: .bpmChanged, object: self)
+            NotificationCenter.default.post(name: BeatModelNotifications.bpmChanged, object: self)
         }
     }
         
     func beatEvent() {
-        NotificationCenter.default.post(name: .beatHappened, object: self)
+        NotificationCenter.default.post(name: BeatModelNotifications.beatHappened, object: self)
     }
     
     // IN SWIFT: Code to register and notify observers not required here.

@@ -10,16 +10,14 @@ import Foundation // For Notification
 
 // Implements: ActionListener, BeatObserver, BPMObserver
 // IN SWIFT: we use Foundation's NSNotification for observing.
-// TODO: What is the closest thing to ActionListener? NSViewController?
-// TODO: I suspect that NSViewController implies two 'views' in the book's sense,
-// since Java is using one 'view' to control two windows, which you'd never do with Cocoa AppKit or iOS UIKit.
+// TODO: Combine this file with ViewController.
 public class DJView  {
     
     var model: BeatModelInterface
     
     var controller: ControllerInterface
     
-    // TODO: Use NSView classes here
+    // TODO: Use NSView classes here, make them all "@IBOutlet var unowned name: Kind!"
     // var viewFrame: JFrame
     // var viewPanel: JPanel
     // var beatBar: BeatBar
@@ -34,7 +32,7 @@ public class DJView  {
     // var startMenuItem: JMenuItem
     // var stopMenuItem: JMenuItem
     
-    // TODO: leverage Main.storyboard to create the views
+    // TODO: leverage Main.storyboard to create the views and connect them to IBOutlets
     // public void createView() {
     //     // Create all Swing components here
     // }
@@ -47,9 +45,9 @@ public class DJView  {
         self.model = model
         self.controller = controller
         
-        NotificationCenter.default.addObserver(forName: .bpmChanged, object: self, queue: nil, using: bpmChanged)
+        NotificationCenter.default.addObserver(forName: BeatModelNotifications.bpmChanged, object: self, queue: nil, using: bpmChanged)
         
-        NotificationCenter.default.addObserver(forName: .beatHappened, object: self, queue: nil, using: beatHappened)
+        NotificationCenter.default.addObserver(forName: BeatModelNotifications.beatHappened, object: self, queue: nil, using: beatHappened)
     }
     
     func bpmChanged(notification: Notification) {
@@ -60,5 +58,5 @@ public class DJView  {
         
     }
     
-    
+    // TODO: the rest
 }
