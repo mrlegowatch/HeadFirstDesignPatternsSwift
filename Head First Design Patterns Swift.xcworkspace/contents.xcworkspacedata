@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/1. Strategy Pattern.playground">
+      location = "container:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/1. Strategy Pattern.playground">
    </FileRef>
    <FileRef
       location = "group:/Users/mrlegowatch/Documents/Development/SampleCode/HeadFirstDesignPatternsSwift/Swift/2. Observer Pattern.playground">
