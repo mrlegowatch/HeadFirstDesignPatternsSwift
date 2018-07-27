@@ -36,7 +36,8 @@ public class BeatModel: BeatModelInterface {
             NotificationCenter.default.post(name: BeatModelNotifications.bpmChanged, object: self)
         }
     }
-        
+    
+    // this method is called by the MIDI code whenever a new beat starts
     func beatEvent() {
         NotificationCenter.default.post(name: BeatModelNotifications.beatHappened, object: self)
     }

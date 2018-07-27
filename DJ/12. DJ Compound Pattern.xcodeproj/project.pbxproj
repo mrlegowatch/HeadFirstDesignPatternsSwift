@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1B4911210A5DEF006C508C /* DJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B4910210A5DEF006C508C /* DJView.swift */; };
+		3D1B4913210A69FF006C508C /* DJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B4912210A69FF006C508C /* DJViewController.swift */; };
 		B6017D8020AC6A10002C2A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D7F20AC6A10002C2A39 /* AppDelegate.swift */; };
-		B6017D8220AC6A10002C2A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D8120AC6A10002C2A39 /* ViewController.swift */; };
 		B6017D8420AC6A13002C2A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6017D8320AC6A13002C2A39 /* Assets.xcassets */; };
 		B6017D8720AC6A13002C2A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6017D8520AC6A13002C2A39 /* Main.storyboard */; };
 		B6017D9020AC6A61002C2A39 /* BeatModelInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D8F20AC6A61002C2A39 /* BeatModelInterface.swift */; };
 		B6017D9220AC6A9D002C2A39 /* BeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D9120AC6A9D002C2A39 /* BeatModel.swift */; };
-		B6017D9420AC6C92002C2A39 /* DJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D9320AC6C92002C2A39 /* DJView.swift */; };
 		B6017D9620AC6D37002C2A39 /* ControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6017D9520AC6D37002C2A39 /* ControllerInterface.swift */; };
 		B6F45C1720AF19010009061A /* BeatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F45C1620AF19010009061A /* BeatController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1B4910210A5DEF006C508C /* DJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJView.swift; sourceTree = "<group>"; };
+		3D1B4912210A69FF006C508C /* DJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJViewController.swift; sourceTree = "<group>"; };
 		B6017D7C20AC6A10002C2A39 /* DJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6017D7F20AC6A10002C2A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6017D8120AC6A10002C2A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6017D8320AC6A13002C2A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6017D8620AC6A13002C2A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6017D8820AC6A13002C2A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6017D8920AC6A13002C2A39 /* DJ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DJ.entitlements; sourceTree = "<group>"; };
 		B6017D8F20AC6A61002C2A39 /* BeatModelInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModelInterface.swift; sourceTree = "<group>"; };
 		B6017D9120AC6A9D002C2A39 /* BeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModel.swift; sourceTree = "<group>"; };
-		B6017D9320AC6C92002C2A39 /* DJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJView.swift; sourceTree = "<group>"; };
 		B6017D9520AC6D37002C2A39 /* ControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerInterface.swift; sourceTree = "<group>"; };
 		B6F45C1620AF19010009061A /* BeatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +44,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1B490A210A5C8B006C508C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B6017D7F20AC6A10002C2A39 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3D1B490C210A5CB6006C508C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6F45C1620AF19010009061A /* BeatController.swift */,
+				B6017D9520AC6D37002C2A39 /* ControllerInterface.swift */,
+				3D1B4912210A69FF006C508C /* DJViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D1B490D210A5CC3006C508C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6017D9120AC6A9D002C2A39 /* BeatModel.swift */,
+				B6017D8F20AC6A61002C2A39 /* BeatModelInterface.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D1B490E210A5CCD006C508C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6017D8320AC6A13002C2A39 /* Assets.xcassets */,
+				B6017D8920AC6A13002C2A39 /* DJ.entitlements */,
+				B6017D8820AC6A13002C2A39 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D1B490F210A5CD7006C508C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D1B4910210A5DEF006C508C /* DJView.swift */,
+				B6017D8520AC6A13002C2A39 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B6017D7320AC6A10002C2A39 = {
 			isa = PBXGroup;
 			children = (
@@ -63,17 +109,11 @@
 		B6017D7E20AC6A10002C2A39 /* DJ */ = {
 			isa = PBXGroup;
 			children = (
-				B6017D7F20AC6A10002C2A39 /* AppDelegate.swift */,
-				B6017D8120AC6A10002C2A39 /* ViewController.swift */,
-				B6017D8F20AC6A61002C2A39 /* BeatModelInterface.swift */,
-				B6017D9120AC6A9D002C2A39 /* BeatModel.swift */,
-				B6017D9520AC6D37002C2A39 /* ControllerInterface.swift */,
-				B6F45C1620AF19010009061A /* BeatController.swift */,
-				B6017D9320AC6C92002C2A39 /* DJView.swift */,
-				B6017D8320AC6A13002C2A39 /* Assets.xcassets */,
-				B6017D8520AC6A13002C2A39 /* Main.storyboard */,
-				B6017D8820AC6A13002C2A39 /* Info.plist */,
-				B6017D8920AC6A13002C2A39 /* DJ.entitlements */,
+				3D1B490A210A5C8B006C508C /* AppDelegate */,
+				3D1B490C210A5CB6006C508C /* Controllers */,
+				3D1B490D210A5CC3006C508C /* Models */,
+				3D1B490E210A5CCD006C508C /* Resources */,
+				3D1B490F210A5CD7006C508C /* Views */,
 			);
 			path = DJ;
 			sourceTree = "<group>";
@@ -149,12 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6017D9420AC6C92002C2A39 /* DJView.swift in Sources */,
-				B6017D8220AC6A10002C2A39 /* ViewController.swift in Sources */,
 				B6017D8020AC6A10002C2A39 /* AppDelegate.swift in Sources */,
+				3D1B4911210A5DEF006C508C /* DJView.swift in Sources */,
 				B6F45C1720AF19010009061A /* BeatController.swift in Sources */,
 				B6017D9620AC6D37002C2A39 /* ControllerInterface.swift in Sources */,
 				B6017D9020AC6A61002C2A39 /* BeatModelInterface.swift in Sources */,
+				3D1B4913210A69FF006C508C /* DJViewController.swift in Sources */,
 				B6017D9220AC6A9D002C2A39 /* BeatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,10 +329,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DJ/DJ.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DJ/Info.plist;
+				INFOPLIST_FILE = DJ/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.DJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,10 +343,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DJ/DJ.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DJ/Info.plist;
+				INFOPLIST_FILE = DJ/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatearthstudio.DJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";

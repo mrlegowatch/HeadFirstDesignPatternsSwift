@@ -10,21 +10,25 @@ import Foundation // For Notification
 
 public protocol BeatModelInterface {
     
+    // IN SWIFT: init() is called as new instance of object is created
+    // func initialize()
+    
     func on()
-    
     func off()
-    
     var bpm: Int { get set }
     
     // IN SWIFT: No observer pattern methods are required here, if we use Foundation Notifications.
+    // func registerObserver(...)
+    // func removeObserver(...)
+    // func registerObserver(...)
+    // func removeObserver(...)
+    
 }
 
 struct BeatModelNotifications {
     
     // IN SWIFT: specify Notifications that BeatModelInterface will send when bpm changes or a beat happens.
-
     static let bpmChanged = Notification.Name("bpmChanged")
-
     static let beatHappened = Notification.Name("beatHappened")
-
+    
 }
