@@ -10,6 +10,25 @@ import Cocoa
 
 class DJViewController: NSViewController {
     
+    // view of the model
+    @IBOutlet public var beatBar: NSProgressIndicator!
+    @IBOutlet public var bpmOutputLabel: NSTextField!
+    
+    // user interface controls part of the view
+    @IBOutlet public var bpmLabel: NSTextField!
+    @IBOutlet public var bpmTextField: NSTextField!
+    @IBOutlet public var setBPMButton: NSButton!
+    @IBOutlet public var increaseBPMButton: NSButton!
+    @IBOutlet public var decreaseBPMButton: NSButton!
+    
+    public var startMenuItem: NSMenuItem! {
+        return NSApplication.shared.mainMenu?.item(withTitle: "DJ")?.submenu?.item(withTitle: "Start")
+    }
+    
+    public var stopMenuItem: NSMenuItem! {
+        return NSApplication.shared.mainMenu?.item(withTitle: "DJ")?.submenu?.item(withTitle: "Stop")
+    }
+    
     var model: BeatModelInterface
     var controller: ControllerInterface?
     
@@ -22,49 +41,38 @@ class DJViewController: NSViewController {
         NotificationCenter.default.addObserver(forName: BeatModelNotifications.beatHappened, object: model, queue: nil, using: updateBeat)
     }
     
-    public var aDJView: DJView! {
-        guard isViewLoaded else {return nil}
-        return view as! DJView
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
     
     // "Model View" Controls
     func updateBPM(notification: Notification) {
         let bpm = model.bpm
         if (bpm == 0) {
-            aDJView.bpmOutputLabel.stringValue = "offline"
+            bpmOutputLabel.stringValue = "offline"
         } else {
-            self.aDJView.bpmOutputLabel.stringValue = "Current BPM: \(bpm)"
+            bpmOutputLabel.stringValue = "Current BPM: \(bpm)"
         }
     }
     
     func updateBeat(notification: Notification) {
-        // aDJView.beatBar.
-        
-        
-        
-        
-        
-        
         
     }
     
     // User Interface Controls
     func enableStopMenuItem() {
-        aDJView.stopMenuItem.isEnabled = true
+        stopMenuItem.isEnabled = true
     }
     func disableStopMenuItem() {
-        aDJView.stopMenuItem.isEnabled = false
+        stopMenuItem.isEnabled = false
     }
     func enableStartMenuItem() {
-        aDJView.startMenuItem.isEnabled = true
+        startMenuItem.isEnabled = true
     }
     func disableStartMenuItem() {
-        aDJView.startMenuItem.isEnabled = false
+        startMenuItem.isEnabled = false
     }
     
     // NOTE: StartMenuItem connected here via First Responder
@@ -78,18 +86,18 @@ class DJViewController: NSViewController {
     }
     
     @IBAction func setBPMButtonClicked(_ sender: Any) {
-        if let intVal = Int(aDJView.bpmTextField.stringValue) {
+        // Make sure to set BPM only if the textfield input is a valid integer
+        if let intVal = Int(bpmTextField.stringValue) {
             controller!.set(bpm: intVal)
         }
     }
     
     @IBAction func decreaseBPMButtonClicked(_ sender: Any) {
-            controller!.decreaseBPM()
+        controller!.decreaseBPM()
     }
     
     @IBAction func increaseBPMButtonClicked(_ sender: Any) {
-            controller!.increaseBPM()
-        
+        controller!.increaseBPM()
     }
     
 }

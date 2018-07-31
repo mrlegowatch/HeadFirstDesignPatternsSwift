@@ -7,32 +7,33 @@
 //
 
 import Foundation // For Notification
-
-// TODO: choose an audio framework that provides starting, stopping, and tempo.
-// https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/WritingAudioDrivers/AudioOnMacOSX/AudioOnMacOSX.html
+import AudioKit
 
 public class BeatModel: BeatModelInterface {
     
-    // TODO: var sequencer: Sequencer
+    let oscBank = AKOscillatorBank()
+    let sequencer = AKSequencer()
+    let midi = AKMIDI()
+    let sequenceLength = AKDuration(beats:1)
     
     public init() {
-        setupMidi()
+        setupAudio()
         buildTrackAndStart()
     }
     
     public func on() {
-        // sequencer.start()
+        sequencer.play()
         bpm = 90
     }
     
     public func off() {
         bpm = 0
-        // sequencer.stop()
+        sequencer.stop()
     }
 
     public var bpm: Int = 90 {
         didSet {
-            // sequencer.setTempoInBPM(bpm)
+            sequencer.setTempo(Double(bpm))
             NotificationCenter.default.post(name: BeatModelNotifications.bpmChanged, object: self)
         }
     }
@@ -46,11 +47,30 @@ public class BeatModel: BeatModelInterface {
     
     // Lots of MIDI code to handle the beat
     
-    func setupMidi() {
-        // TODO
+    func setupAudio() {
+        oscBank.attackDuration = 0.1
+        oscBank.decayDuration = 0.1
+        oscBank.sustainLevel = 0.1
+        oscBank.releaseDuration = 0.3
     }
-    
     func buildTrackAndStart() {
-        // TODO
+        
+        let midiNode = AKMIDINode(node: oscBank)
+        _ = sequencer.newTrack()
+        sequencer.setLength(sequenceLength)
+
+        
+        sequencer.tracks[0].add(noteNumber: 69, velocity: 127, position: AKDuration(beats: 0), duration: AKDuration(beats: 0.1))
+        
+        AudioKit.output = midiNode
+        
+        do {
+            try AudioKit.start()
+        } catch {
+            AKLog("AudioKit did not start!")
+        }
+        
+        sequencer.setTempo(Double(bpm))
+        sequencer.enableLooping()
     }
 }

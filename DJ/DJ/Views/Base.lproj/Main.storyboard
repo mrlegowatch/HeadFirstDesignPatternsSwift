@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
         <capability name="box content view" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -81,7 +81,7 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="DJViewController" customModule="DJ" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl" customClass="DJView" customModule="DJ" customModuleProvider="target">
+                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
@@ -164,7 +164,7 @@
                                             </textFieldCell>
                                         </textField>
                                         <progressIndicator wantsLayer="YES" fixedFrame="YES" maxValue="100" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="H6x-p4-p6M">
-                                            <rect key="frame" x="20" y="40" width="100" height="20"/>
+                                            <rect key="frame" x="20" y="40" width="393" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         </progressIndicator>
                                     </subviews>
@@ -172,16 +172,16 @@
                                 <font key="titleFont" size="14" name=".AppleSystemUIFont"/>
                             </box>
                         </subviews>
-                        <connections>
-                            <outlet property="beatBar" destination="H6x-p4-p6M" id="f4X-Qi-6jZ"/>
-                            <outlet property="bpmLabel" destination="dl5-gZ-QDy" id="iJr-kP-CiG"/>
-                            <outlet property="bpmOutputLabel" destination="1n1-du-wNM" id="YT5-uP-EJT"/>
-                            <outlet property="bpmTextField" destination="33G-i6-g7l" id="sva-Xz-Zkb"/>
-                            <outlet property="decreaseBPMButton" destination="m4A-oJ-K3h" id="lPL-Iq-Uhj"/>
-                            <outlet property="increaseBPMButton" destination="MDf-mA-UhW" id="Z0q-kw-1jY"/>
-                            <outlet property="setBPMButton" destination="cGH-wG-94t" id="6pB-80-LSK"/>
-                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="beatBar" destination="H6x-p4-p6M" id="tda-l5-kDr"/>
+                        <outlet property="bpmLabel" destination="dl5-gZ-QDy" id="f42-qx-yML"/>
+                        <outlet property="bpmOutputLabel" destination="1n1-du-wNM" id="pGF-B6-gDf"/>
+                        <outlet property="bpmTextField" destination="33G-i6-g7l" id="ZA5-wQ-EH3"/>
+                        <outlet property="decreaseBPMButton" destination="m4A-oJ-K3h" id="NE2-Ze-KZX"/>
+                        <outlet property="increaseBPMButton" destination="MDf-mA-UhW" id="5VD-nr-sGz"/>
+                        <outlet property="setBPMButton" destination="cGH-wG-94t" id="VAV-cS-9hl"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
