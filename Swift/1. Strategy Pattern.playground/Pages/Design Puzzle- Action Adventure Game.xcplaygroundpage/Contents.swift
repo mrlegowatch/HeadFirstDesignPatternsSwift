@@ -37,39 +37,51 @@ class Sword: Weapon {
 
 // This is the "abstract" class (1).
 // IN SWIFT: An abstract class with a partial concrete implementation could be implemented as a protocol with default implementation. However, due to a storage requirement (reference to a weapon), I chose to make it a class with a fight() method that must be overridden.
-// IN SWIFT: This design puzzle doesn't explain about how fight() is implemented, or how it is called. The diagram indicates that each subclass implements it, so I take this to mean that fight() is the function used to draw weapons.
+// IN SWIFT: "During a fight the useWeapon() method is called on the current weapon set for a given character to inflict great bodily damage on another character."
 class Character {
     // A Character "HAS-A" Weapon behavior.
     var weapon: Weapon? = nil
-    
-    /* abstract */ func fight() {
-        print("fight() MUST BE OVERRIDEN")
+    func fight() {
+        self.weapon?.use()
+    }
+    func setWeapon(weapon: Weapon?){
+        self.weapon = weapon
     }
 }
 
 // Here are the other four of the eight classes (3b).
 class Queen: Character {
-    override func fight() {
-        weapon = Axe()
+    override init() {
+        super.init()
+        self.weapon = Axe()
     }
 }
 
 class King: Character {
-    override func fight() {
-        weapon = BowAndArrow()
+    override init() {
+        super.init()
+        self.weapon = BowAndArrow()
     }
 }
 
 class Knight: Character {
-    override func fight() {
-        weapon = Sword()
+    override init(){
+        super.init()
+        self.weapon = Sword()
     }
 }
 
 class Troll: Character {
-    override func fight() {
-        weapon = Knife()
+    override init(){
+        super.init()
+        self.weapon = Knife()
     }
 }
-
+// Example
+let t = Troll()
+t.fight()
+t.setWeapon(weapon: nil)
+t.fight()
+t.setWeapon(weapon: Axe())
+t.fight()
 //: [Next](@next)
