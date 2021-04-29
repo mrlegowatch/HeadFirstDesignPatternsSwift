@@ -22,4 +22,4 @@ The original sample code in Java, which the book's examples are based on, can be
 * Iterator and Composite
 * State Pattern
 
-(more coming...)
+Note: we finished our book club before we completed the code for the remaining chapters. We hope you found this code useful.
